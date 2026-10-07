@@ -1,0 +1,16 @@
+{
+  "name": "unipilot-agent",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "test": "tsx --test src/security.test.ts src/portal.test.ts"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.0",
+    "tsx": "^4.20.5"
+  }
+}
